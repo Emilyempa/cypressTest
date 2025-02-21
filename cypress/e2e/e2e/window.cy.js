@@ -18,6 +18,7 @@ context("Window", () => {
   it("will get the title", () => {
     cy.title().should("include", "Hacker Escape Rooms");
   });
+  
   it("will check if footer is present", () => {
     cy.get("footer").should("exist");
   });
