@@ -1,0 +1,23 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "test",
+  "homepage": "https://github.com/Emilyempa/cypressTest#readme",
+  "bugs": {
+    "url": "https://github.com/Emilyempa/cypressTest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilyempa/cypressTest.git"
+  },
+  "license": "ISC",
+  "author": "Emily",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^14.0.3"
+  }
+}
