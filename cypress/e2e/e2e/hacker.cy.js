@@ -1,13 +1,13 @@
 /// <reference types="cypress" />
 
 describe("e2e test", () => {
-  it("will check if webpage is running and verifies h1 and hero content", () => {
+  it("will check if webpage is running and verifies h2 and hero content", () => {
     cy.visit("/");
     cy.get("h2").should("contain.text", "Popular challenges right now");
     cy.get(".bannerTop").should("be.visible");
   });
 
-  it("will klick on link About us and Play online check url and content on both", () => {
+  it("will klick on link About us and Play online, check url and content on both", () => {
     cy.visit("/");
     cy.contains("About us").click({ force: true });
     cy.url().should("include", "/aboutus.html");
